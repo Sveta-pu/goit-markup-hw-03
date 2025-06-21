@@ -4,33 +4,12 @@ body {
   background-color: #fff;
 }
 
-.page-header {
-  border-bottom: 1px solid #e7e9fc;
-}
-
-.header-nav {
-  display: flex;
-  align-items: center;
-}
-
 /* common classo */
+
 .container {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0, 0, 0, 0);
-  overflow: hidden;
 }
 
 a {
@@ -45,11 +24,6 @@ h5,
 h6,
 p {
   margin: 0;
-  /* margin-bottom: 0; */
-}
-p span {
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 ul,
@@ -62,6 +36,21 @@ ol {
 img {
   display: block;
 }
+/* <!-- навігація header та логотип -->   */
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
 
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -72,6 +61,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .hader-logo {
   padding: 24px 0;
   margin-right: 76px;
@@ -79,14 +69,6 @@ img {
 
 .logo-part {
   color: #2e2f42;
-}
-
-.footer {
-  background: #2e2f42;
-}
-
-.logo-part-footer {
-  color: #f4f4fd;
 }
 
 .header-address {
@@ -113,14 +95,14 @@ img {
 }
 
 .nav-list {
-  display: block;
-  padding: 24px 0;
   display: flex;
   align-items: center;
   gap: 40px;
 }
 
 .nav-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -138,6 +120,27 @@ img {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.footer {
+  background: #2e2f42;
+}
+
+.logo-part-footer {
+  color: #f4f4fd;
 }
 
 .container-hero {
