@@ -192,7 +192,6 @@ img {
 
 .focus {
   background: #fff;
-  /* padding: 20px; */
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
@@ -275,8 +274,8 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
-  margin-bottom: 8px;
-  margin-top: 32px;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 
 .team-position {
