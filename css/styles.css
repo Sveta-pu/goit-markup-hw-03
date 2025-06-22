@@ -194,6 +194,7 @@ img {
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 120px 0 120px;
 }
 
 .focus-list {
@@ -201,8 +202,6 @@ img {
   list-style-type: none;
   font-style: normal;
   gap: 24px;
-  padding-top: 112px;
-  padding-bottom: 120px;
 }
 
 .focus-item {
