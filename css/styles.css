@@ -201,7 +201,8 @@ img {
   list-style-type: none;
   font-style: normal;
   gap: 24px;
-  padding: 112px 0 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .focus-item {
