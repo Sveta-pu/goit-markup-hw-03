@@ -202,7 +202,7 @@ img {
   list-style-type: none;
   font-style: normal;
   gap: 24px;
-  padding: 120px 0;
+  padding: 112px 0 120px;
 }
 
 .focus-item {
@@ -229,40 +229,43 @@ img {
   margin: 0;
 }
 
-/* Команда для біжнесу */
+/* Команда   */
 
 .team {
   background: #f4f4fd;
-  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 732px;
+  gap: 72px;
+  padding: 120px 0;
 }
 
 .team-list {
   display: flex;
-  margin-top: 72px;
-  margin-bottom: 120px;
+  flex-direction: row;
+  justify-content: center;
   gap: 24px;
-  padding-left: 156px;
-  padding-right: 156px;
+  align-items: center;
+  margin: 0 auto;
+  padding-left: 0;
 }
 
 .list-link-team {
   background-color: #ffffff;
-  margin-bottom: 120px;
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-title {
-  font-weight: 700;
+  color: #2e2f42;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  text-align: center;
   text-transform: capitalize;
-  border-top: 120px;
-  border-bottom: 72px;
-  max-width: 162pv;
-  padding-top: 120px;
-  margin-bottom: 20px;
+  margin-bottom: 72px;
+  text-align: center;
 }
 
 .team-name {
@@ -296,9 +299,6 @@ img {
   gap: 24px;
   padding: 0;
   margin: 0;
-}
-
-.portfolio-item {
 }
 
 .portfolio-title {
@@ -340,16 +340,16 @@ img {
 }
 
 .footer-text {
-  max-width: 264px;
-  font-weight: 400;
+  color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  max-width: 264px;
 }
 
 .footer {
-  margin-top: 120px;
+  background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .container-footer {
@@ -357,6 +357,6 @@ img {
 }
 
 .footer-logo {
-  padding: 100px 0;
-  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
