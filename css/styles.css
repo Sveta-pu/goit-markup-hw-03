@@ -238,6 +238,7 @@ img {
   height: 732px;
   gap: 72px;
   padding: 120px 0 120px;
+  margin-bottom: 8px;
 }
 
 .team-list {
