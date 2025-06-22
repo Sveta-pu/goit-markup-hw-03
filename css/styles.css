@@ -192,6 +192,9 @@ img {
 
 .focus {
   background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .focus-list {
@@ -199,6 +202,15 @@ img {
   list-style-type: none;
   font-style: normal;
   gap: 24px;
+  padding: 120px 0;
+}
+
+.focus-item {
+  flex-basis: calc((100% - 3 * 24px) / 4); /* 4 елементи, 3 відступи */
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 24px;
+  transition: box-shadow 0.2s;
 }
 
 .focus-title {
@@ -206,6 +218,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .focus-text {
@@ -213,6 +226,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin: 0;
 }
 
 /* Команда для біжнесу */
