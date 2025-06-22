@@ -218,7 +218,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 .focus-text {
@@ -318,8 +318,6 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  /* padding-top: 120px;
-  padding-bottom: 72px; */
   padding: 120px 0 60px 0;
 }
 
