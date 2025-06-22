@@ -298,14 +298,15 @@ img {
 .portfolio {
   margin: 0 auto; /* center the section */
   padding: 0 15px;
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 24px;
+  justify-content: space-between;
+  row-gap: 48px;
   padding: 0;
   margin: 0;
 }
@@ -318,7 +319,7 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding: 120px 0 60px 0;
+  margin-bottom: 72px;
 }
 
 .portfolio-container {
