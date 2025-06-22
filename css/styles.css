@@ -290,7 +290,8 @@ img {
 }
 
 .portfolio {
-  max-width: 1128px;
+  margin: 0 auto; /* center the section */
+  padding: 0 15px;
 }
 
 .portfolio-list {
@@ -298,6 +299,9 @@ img {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
 }
 
 .portfolio-title {
