@@ -267,6 +267,13 @@ img {
   text-align: center;
 }
 
+.team-box {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -275,7 +282,6 @@ img {
   color: #2e2f42;
   text-align: center;
   padding-top: 32px;
-  padding-bottom: 8px;
 }
 
 .team-position {
