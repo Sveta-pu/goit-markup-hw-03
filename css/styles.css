@@ -122,19 +122,6 @@ img {
   background-color: #404bbf;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0, 0, 0, 0);
-  overflow: hidden;
-}
-
 .footer {
   background: #2e2f42;
 }
@@ -142,14 +129,11 @@ img {
 .logo-part-footer {
   color: #f4f4fd;
 }
-/* <!-- рішення для вашого бізнесу -->  */
 
-.focus-container {
-}
+/* <!-- ефективні рішення для вашого бізнесу та кнопка --> */
 
 .hero-section {
   background-color: #2e2f42;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -167,7 +151,6 @@ img {
   color: #ffffff;
   min-width: 169px;
   height: 56px;
-  /* padding-bottom: 188px; */
   border: none;
   border-radius: 4px;
   display: block;
@@ -188,15 +171,33 @@ img {
 
 /* The second section focus */
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.focus-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
 .focus {
   background: #fff;
 }
 
 .focus-list {
-  max-width: 264vh;
   display: flex;
-  margin-top: 120px;
-  margin-bottom: 120px;
+  list-style-type: none;
+  font-style: normal;
   gap: 24px;
 }
 
@@ -214,11 +215,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-.focus-item {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
+/* Команда для біжнесу */
 
 .team {
   background: #f4f4fd;
