@@ -238,7 +238,7 @@ img {
   align-items: center;
   height: 732px;
   gap: 72px;
-  padding: 120px 0;
+  padding: 120px 0 120px;
 }
 
 .team-list {
