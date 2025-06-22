@@ -142,17 +142,19 @@ img {
 .logo-part-footer {
   color: #f4f4fd;
 }
+/* <!-- рішення для вашого бізнесу -->  */
 
-.container-hero {
-  max-width: 1440px;
+.focus-container {
 }
 
 .hero-section {
   background-color: #2e2f42;
+
   display: flex;
-  align-items: center; /* Vertical */
-  justify-content: center; /* Horizontal */
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
+  padding-bottom: 188px;
 }
 
 .hero-button {
@@ -163,9 +165,13 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   margin-bottom: 188px;
+  border: none;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-title {
