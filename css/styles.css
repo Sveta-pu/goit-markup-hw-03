@@ -317,8 +317,9 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  /* padding-top: 120px;
+  padding-bottom: 72px; */
+  padding: 120px 0 60px 0;
 }
 
 .portfolio-container {
