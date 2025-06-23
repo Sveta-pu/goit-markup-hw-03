@@ -165,7 +165,6 @@ img {
   text-align: center;
   color: #fff;
   max-width: 496px;
-  margin-top: 188px;
   margin-bottom: 48px;
 }
 
@@ -207,9 +206,6 @@ img {
 .focus-item {
   flex-basis: calc((100% - 3 * 24px) / 4); /* 4 елементи, 3 відступи */
   box-sizing: border-box;
-  border-radius: 6px;
-  padding: 24px;
-  transition: box-shadow 0.2s;
 }
 
 .focus-title {
@@ -232,13 +228,10 @@ img {
 
 .team {
   background: #f4f4fd;
-  display: flex;
   flex-direction: column;
   align-items: center;
-  height: 732px;
   gap: 72px;
   padding: 120px 0 120px;
-  margin-bottom: 8px;
 }
 
 .team-list {
@@ -269,7 +262,6 @@ img {
 }
 
 .team-box {
-  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 32px 0 32px;
@@ -293,7 +285,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  margin-bottom: 32px;
 }
 
 .portfolio {
@@ -351,17 +342,14 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-left: 156px;
 }
 
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  margin: 100px 0;
 }
 
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
-  margin-left: 156px;
 }
